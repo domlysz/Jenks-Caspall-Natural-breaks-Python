@@ -24,12 +24,12 @@ There are strong Python implementations of Jenks-Fisher available, but they can'
 lot of values in a reasonable time. The algorithm makes this somewhat inevitable : the number
 of possible combination increases exponentially with the number of values, and find the optimal
 partition will be increasingly slow. Usually softwares which uses Jenks-Fisher sample the data
-befohand to maintain acceptable running time. Using an optimal method with only a sample of data
+beforehand to maintain acceptable running time. Using an optimal method with only a sample of data
 is a nonsense unless the sampling was taken very carefully. 
 
 
 Jenks-Caspall algorithm was presented in the paper :
-"Error on choroplethic maps: definition, measurement, reduction" (Jenks GF, Caspall FC, 1971) 
+"[Error on choroplethic maps: definition, measurement, reduction](https://www.jstor.org/stable/2562442?seq=1)" (Jenks GF, Caspall FC, 1971) 
 
 
 This algorithm is subdivised in two steps:
