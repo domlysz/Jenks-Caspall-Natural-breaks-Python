@@ -5,7 +5,7 @@ Python Jenks-Caspall Natural breaks
 This is an attempt to implement Jenks-Caspall reiterative forcing algorithm.
 
 
-This script correctly works as it but it's still in developement.
+This script correctly works as it but it's still in development.
 Future improvement will concerns classes design and clusters initialization method.
 
 
